@@ -20,5 +20,5 @@ import chiru
 urlpatterns = [
     path('admin/', admin.site.urls),
     #path('primary suffix',include("appname.urls"))
-    path('',include("chiru.urls")),
+    path('chiru/',include("chiru.urls")),
 ]

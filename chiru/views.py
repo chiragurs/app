@@ -14,3 +14,7 @@ def fact(request,n):
 
 def child(request):
     return render(request,"child.html")
+
+def spider(request):
+    return render(request,"chiru/spider.html")
+

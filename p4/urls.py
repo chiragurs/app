@@ -16,9 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 import chiru
+from chiru import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('spider/',views.spider,name='spider'),
     #path('primary suffix',include("appname.urls"))
     path('chiru/',include("chiru.urls")),
 ]

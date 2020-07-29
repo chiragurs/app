@@ -4,17 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    {% block title %}
-    <title>Base Html File</title>
-    {% endblock %}
+    
     
 </head>
 
 <body>
-    <h1><i>PySpiders</i></h1>
-    {% block content %}
-    <h1>welcome to Base.html</h1>
-    {% endblock %}
+    <h1><i>Welcome spiders....</i></h1>
+  <a href="{% url 'chiru:child'%}">child</a>
 </body>
 
 </html>
